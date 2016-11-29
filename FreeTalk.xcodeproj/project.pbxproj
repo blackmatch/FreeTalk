@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5970D4341DEDBCB6000A1AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4331DEDBCB6000A1AD0 /* main.m */; };
+		5970D4371DEDBCB6000A1AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */; };
+		5970D43A1DEDBCB6000A1AD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4391DEDBCB6000A1AD0 /* ViewController.m */; };
+		5970D43D1DEDBCB6000A1AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */; };
+		5970D43F1DEDBCB6000A1AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */; };
+		5970D4421DEDBCB6000A1AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */; };
+		5970D44D1DEDBCB6000A1AD0 /* FreeTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */; };
+		5970D4581DEDBCB6000A1AD0 /* FreeTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5970D4491DEDBCB6000A1AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5970D4271DEDBCB5000A1AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5970D42E1DEDBCB6000A1AD0;
+			remoteInfo = FreeTalk;
+		};
+		5970D4541DEDBCB6000A1AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5970D4271DEDBCB5000A1AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5970D42E1DEDBCB6000A1AD0;
+			remoteInfo = FreeTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5970D42F1DEDBCB6000A1AD0 /* FreeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5970D4331DEDBCB6000A1AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5970D4351DEDBCB6000A1AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5970D4381DEDBCB6000A1AD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5970D4391DEDBCB6000A1AD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5970D43C1DEDBCB6000A1AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5970D4411DEDBCB6000A1AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5970D4431DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5970D4481DEDBCB6000A1AD0 /* FreeTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeTalkTests.m; sourceTree = "<group>"; };
+		5970D44E1DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5970D4531DEDBCB6000A1AD0 /* FreeTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeTalkUITests.m; sourceTree = "<group>"; };
+		5970D4591DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5970D42C1DEDBCB6000A1AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D4451DEDBCB6000A1AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D4501DEDBCB6000A1AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5970D4261DEDBCB5000A1AD0 = {
+			isa = PBXGroup;
+			children = (
+				5970D4311DEDBCB6000A1AD0 /* FreeTalk */,
+				5970D44B1DEDBCB6000A1AD0 /* FreeTalkTests */,
+				5970D4561DEDBCB6000A1AD0 /* FreeTalkUITests */,
+				5970D4301DEDBCB6000A1AD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5970D4301DEDBCB6000A1AD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5970D42F1DEDBCB6000A1AD0 /* FreeTalk.app */,
+				5970D4481DEDBCB6000A1AD0 /* FreeTalkTests.xctest */,
+				5970D4531DEDBCB6000A1AD0 /* FreeTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5970D4311DEDBCB6000A1AD0 /* FreeTalk */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4351DEDBCB6000A1AD0 /* AppDelegate.h */,
+				5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */,
+				5970D4381DEDBCB6000A1AD0 /* ViewController.h */,
+				5970D4391DEDBCB6000A1AD0 /* ViewController.m */,
+				5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */,
+				5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */,
+				5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */,
+				5970D4431DEDBCB6000A1AD0 /* Info.plist */,
+				5970D4321DEDBCB6000A1AD0 /* Supporting Files */,
+			);
+			path = FreeTalk;
+			sourceTree = "<group>";
+		};
+		5970D4321DEDBCB6000A1AD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4331DEDBCB6000A1AD0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5970D44B1DEDBCB6000A1AD0 /* FreeTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */,
+				5970D44E1DEDBCB6000A1AD0 /* Info.plist */,
+			);
+			path = FreeTalkTests;
+			sourceTree = "<group>";
+		};
+		5970D4561DEDBCB6000A1AD0 /* FreeTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */,
+				5970D4591DEDBCB6000A1AD0 /* Info.plist */,
+			);
+			path = FreeTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5970D42E1DEDBCB6000A1AD0 /* FreeTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5970D45C1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalk" */;
+			buildPhases = (
+				5970D42B1DEDBCB6000A1AD0 /* Sources */,
+				5970D42C1DEDBCB6000A1AD0 /* Frameworks */,
+				5970D42D1DEDBCB6000A1AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeTalk;
+			productName = FreeTalk;
+			productReference = 5970D42F1DEDBCB6000A1AD0 /* FreeTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5970D4471DEDBCB6000A1AD0 /* FreeTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5970D45F1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkTests" */;
+			buildPhases = (
+				5970D4441DEDBCB6000A1AD0 /* Sources */,
+				5970D4451DEDBCB6000A1AD0 /* Frameworks */,
+				5970D4461DEDBCB6000A1AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5970D44A1DEDBCB6000A1AD0 /* PBXTargetDependency */,
+			);
+			name = FreeTalkTests;
+			productName = FreeTalkTests;
+			productReference = 5970D4481DEDBCB6000A1AD0 /* FreeTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5970D4521DEDBCB6000A1AD0 /* FreeTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5970D4621DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkUITests" */;
+			buildPhases = (
+				5970D44F1DEDBCB6000A1AD0 /* Sources */,
+				5970D4501DEDBCB6000A1AD0 /* Frameworks */,
+				5970D4511DEDBCB6000A1AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5970D4551DEDBCB6000A1AD0 /* PBXTargetDependency */,
+			);
+			name = FreeTalkUITests;
+			productName = FreeTalkUITests;
+			productReference = 5970D4531DEDBCB6000A1AD0 /* FreeTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5970D4271DEDBCB5000A1AD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = blackmatch;
+				TargetAttributes = {
+					5970D42E1DEDBCB6000A1AD0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					5970D4471DEDBCB6000A1AD0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5970D42E1DEDBCB6000A1AD0;
+					};
+					5970D4521DEDBCB6000A1AD0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5970D42E1DEDBCB6000A1AD0;
+					};
+				};
+			};
+			buildConfigurationList = 5970D42A1DEDBCB5000A1AD0 /* Build configuration list for PBXProject "FreeTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5970D4261DEDBCB5000A1AD0;
+			productRefGroup = 5970D4301DEDBCB6000A1AD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5970D42E1DEDBCB6000A1AD0 /* FreeTalk */,
+				5970D4471DEDBCB6000A1AD0 /* FreeTalkTests */,
+				5970D4521DEDBCB6000A1AD0 /* FreeTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5970D42D1DEDBCB6000A1AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970D4421DEDBCB6000A1AD0 /* LaunchScreen.storyboard in Resources */,
+				5970D43F1DEDBCB6000A1AD0 /* Assets.xcassets in Resources */,
+				5970D43D1DEDBCB6000A1AD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D4461DEDBCB6000A1AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D4511DEDBCB6000A1AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5970D42B1DEDBCB6000A1AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970D43A1DEDBCB6000A1AD0 /* ViewController.m in Sources */,
+				5970D4371DEDBCB6000A1AD0 /* AppDelegate.m in Sources */,
+				5970D4341DEDBCB6000A1AD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D4441DEDBCB6000A1AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970D44D1DEDBCB6000A1AD0 /* FreeTalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5970D44F1DEDBCB6000A1AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970D4581DEDBCB6000A1AD0 /* FreeTalkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5970D44A1DEDBCB6000A1AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5970D42E1DEDBCB6000A1AD0 /* FreeTalk */;
+			targetProxy = 5970D4491DEDBCB6000A1AD0 /* PBXContainerItemProxy */;
+		};
+		5970D4551DEDBCB6000A1AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5970D42E1DEDBCB6000A1AD0 /* FreeTalk */;
+			targetProxy = 5970D4541DEDBCB6000A1AD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5970D43C1DEDBCB6000A1AD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5970D4411DEDBCB6000A1AD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5970D45A1DEDBCB6000A1AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5970D45B1DEDBCB6000A1AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5970D45D1DEDBCB6000A1AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5970D45E1DEDBCB6000A1AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5970D4601DEDBCB6000A1AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeTalk.app/FreeTalk";
+			};
+			name = Debug;
+		};
+		5970D4611DEDBCB6000A1AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeTalk.app/FreeTalk";
+			};
+			name = Release;
+		};
+		5970D4631DEDBCB6000A1AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreeTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreeTalk;
+			};
+			name = Debug;
+		};
+		5970D4641DEDBCB6000A1AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreeTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreeTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5970D42A1DEDBCB5000A1AD0 /* Build configuration list for PBXProject "FreeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5970D45A1DEDBCB6000A1AD0 /* Debug */,
+				5970D45B1DEDBCB6000A1AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5970D45C1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5970D45D1DEDBCB6000A1AD0 /* Debug */,
+				5970D45E1DEDBCB6000A1AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5970D45F1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5970D4601DEDBCB6000A1AD0 /* Debug */,
+				5970D4611DEDBCB6000A1AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5970D4621DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5970D4631DEDBCB6000A1AD0 /* Debug */,
+				5970D4641DEDBCB6000A1AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5970D4271DEDBCB5000A1AD0 /* Project object */;
+}
