@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5970D4341DEDBCB6000A1AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4331DEDBCB6000A1AD0 /* main.m */; };
-		5970D4371DEDBCB6000A1AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */; };
-		5970D43A1DEDBCB6000A1AD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4391DEDBCB6000A1AD0 /* ViewController.m */; };
-		5970D43D1DEDBCB6000A1AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */; };
 		5970D43F1DEDBCB6000A1AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */; };
-		5970D4421DEDBCB6000A1AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */; };
 		5970D44D1DEDBCB6000A1AD0 /* FreeTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */; };
 		5970D4581DEDBCB6000A1AD0 /* FreeTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */; };
+		5970D4811DEDBFCA000A1AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4781DEDBFCA000A1AD0 /* AppDelegate.m */; };
+		5970D4831DEDBFCA000A1AD0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D47D1DEDBFCA000A1AD0 /* UIView+Frame.m */; };
+		5970D4841DEDBFCA000A1AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D47F1DEDBFCA000A1AD0 /* main.m */; };
+		5970D4871DEDC0D7000A1AD0 /* FTMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4861DEDC0D7000A1AD0 /* FTMainTabViewController.m */; };
+		5970D48A1DEDC128000A1AD0 /* FTMainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4891DEDC128000A1AD0 /* FTMainNavViewController.m */; };
+		5970D48D1DEDC264000A1AD0 /* FTCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D48C1DEDC264000A1AD0 /* FTCircleViewController.m */; };
+		5970D4901DEDC288000A1AD0 /* FTChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D48F1DEDC288000A1AD0 /* FTChatViewController.m */; };
+		5970D4931DEDC2A2000A1AD0 /* FTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4921DEDC2A2000A1AD0 /* FTMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +39,7 @@
 
 /* Begin PBXFileReference section */
 		5970D42F1DEDBCB6000A1AD0 /* FreeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5970D4331DEDBCB6000A1AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5970D4351DEDBCB6000A1AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5970D4381DEDBCB6000A1AD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5970D4391DEDBCB6000A1AD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5970D43C1DEDBCB6000A1AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5970D4411DEDBCB6000A1AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5970D4431DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5970D4481DEDBCB6000A1AD0 /* FreeTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeTalkTests.m; sourceTree = "<group>"; };
@@ -51,6 +47,21 @@
 		5970D4531DEDBCB6000A1AD0 /* FreeTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeTalkUITests.m; sourceTree = "<group>"; };
 		5970D4591DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5970D4771DEDBFCA000A1AD0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5970D4781DEDBFCA000A1AD0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5970D47C1DEDBFCA000A1AD0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5970D47D1DEDBFCA000A1AD0 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5970D47F1DEDBFCA000A1AD0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5970D4851DEDC0D7000A1AD0 /* FTMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMainTabViewController.h; sourceTree = "<group>"; };
+		5970D4861DEDC0D7000A1AD0 /* FTMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMainTabViewController.m; sourceTree = "<group>"; };
+		5970D4881DEDC128000A1AD0 /* FTMainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMainNavViewController.h; sourceTree = "<group>"; };
+		5970D4891DEDC128000A1AD0 /* FTMainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMainNavViewController.m; sourceTree = "<group>"; };
+		5970D48B1DEDC264000A1AD0 /* FTCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCircleViewController.h; sourceTree = "<group>"; };
+		5970D48C1DEDC264000A1AD0 /* FTCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCircleViewController.m; sourceTree = "<group>"; };
+		5970D48E1DEDC288000A1AD0 /* FTChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTChatViewController.h; sourceTree = "<group>"; };
+		5970D48F1DEDC288000A1AD0 /* FTChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTChatViewController.m; sourceTree = "<group>"; };
+		5970D4911DEDC2A2000A1AD0 /* FTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMeViewController.h; sourceTree = "<group>"; };
+		5970D4921DEDC2A2000A1AD0 /* FTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +112,8 @@
 		5970D4311DEDBCB6000A1AD0 /* FreeTalk */ = {
 			isa = PBXGroup;
 			children = (
-				5970D4351DEDBCB6000A1AD0 /* AppDelegate.h */,
-				5970D4361DEDBCB6000A1AD0 /* AppDelegate.m */,
-				5970D4381DEDBCB6000A1AD0 /* ViewController.h */,
-				5970D4391DEDBCB6000A1AD0 /* ViewController.m */,
-				5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */,
+				5970D4651DEDBFCA000A1AD0 /* Classes */,
 				5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */,
-				5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */,
 				5970D4431DEDBCB6000A1AD0 /* Info.plist */,
 				5970D4321DEDBCB6000A1AD0 /* Supporting Files */,
 			);
@@ -117,7 +123,6 @@
 		5970D4321DEDBCB6000A1AD0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5970D4331DEDBCB6000A1AD0 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +143,188 @@
 				5970D4591DEDBCB6000A1AD0 /* Info.plist */,
 			);
 			path = FreeTalkUITests;
+			sourceTree = "<group>";
+		};
+		5970D4651DEDBFCA000A1AD0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4661DEDBFCA000A1AD0 /* Chat */,
+				5970D46A1DEDBFCA000A1AD0 /* Circle */,
+				5970D46E1DEDBFCA000A1AD0 /* Main */,
+				5970D4721DEDBFCA000A1AD0 /* Me */,
+				5970D4761DEDBFCA000A1AD0 /* Other */,
+				5970D4801DEDBFCA000A1AD0 /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5970D4661DEDBFCA000A1AD0 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4671DEDBFCA000A1AD0 /* Controller */,
+				5970D4681DEDBFCA000A1AD0 /* Model */,
+				5970D4691DEDBFCA000A1AD0 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5970D4671DEDBFCA000A1AD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5970D48E1DEDC288000A1AD0 /* FTChatViewController.h */,
+				5970D48F1DEDC288000A1AD0 /* FTChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5970D4681DEDBFCA000A1AD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5970D4691DEDBFCA000A1AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5970D46A1DEDBFCA000A1AD0 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				5970D46B1DEDBFCA000A1AD0 /* Controller */,
+				5970D46C1DEDBFCA000A1AD0 /* Model */,
+				5970D46D1DEDBFCA000A1AD0 /* View */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		5970D46B1DEDBFCA000A1AD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5970D48B1DEDC264000A1AD0 /* FTCircleViewController.h */,
+				5970D48C1DEDC264000A1AD0 /* FTCircleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5970D46C1DEDBFCA000A1AD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5970D46D1DEDBFCA000A1AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5970D46E1DEDBFCA000A1AD0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5970D46F1DEDBFCA000A1AD0 /* Controller */,
+				5970D4701DEDBFCA000A1AD0 /* Model */,
+				5970D4711DEDBFCA000A1AD0 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5970D46F1DEDBFCA000A1AD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4851DEDC0D7000A1AD0 /* FTMainTabViewController.h */,
+				5970D4861DEDC0D7000A1AD0 /* FTMainTabViewController.m */,
+				5970D4881DEDC128000A1AD0 /* FTMainNavViewController.h */,
+				5970D4891DEDC128000A1AD0 /* FTMainNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5970D4701DEDBFCA000A1AD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5970D4711DEDBFCA000A1AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5970D4721DEDBFCA000A1AD0 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4731DEDBFCA000A1AD0 /* Controller */,
+				5970D4741DEDBFCA000A1AD0 /* Model */,
+				5970D4751DEDBFCA000A1AD0 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5970D4731DEDBFCA000A1AD0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4911DEDC2A2000A1AD0 /* FTMeViewController.h */,
+				5970D4921DEDC2A2000A1AD0 /* FTMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5970D4741DEDBFCA000A1AD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5970D4751DEDBFCA000A1AD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5970D4761DEDBFCA000A1AD0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5970D4771DEDBFCA000A1AD0 /* AppDelegate.h */,
+				5970D4781DEDBFCA000A1AD0 /* AppDelegate.m */,
+				5970D4791DEDBFCA000A1AD0 /* Category */,
+				5970D47E1DEDBFCA000A1AD0 /* Libs */,
+				5970D47F1DEDBFCA000A1AD0 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5970D4791DEDBFCA000A1AD0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5970D47C1DEDBFCA000A1AD0 /* UIView+Frame.h */,
+				5970D47D1DEDBFCA000A1AD0 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5970D47E1DEDBFCA000A1AD0 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		5970D4801DEDBFCA000A1AD0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5970D4421DEDBCB6000A1AD0 /* LaunchScreen.storyboard in Resources */,
 				5970D43F1DEDBCB6000A1AD0 /* Assets.xcassets in Resources */,
-				5970D43D1DEDBCB6000A1AD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5970D43A1DEDBCB6000A1AD0 /* ViewController.m in Sources */,
-				5970D4371DEDBCB6000A1AD0 /* AppDelegate.m in Sources */,
-				5970D4341DEDBCB6000A1AD0 /* main.m in Sources */,
+				5970D48D1DEDC264000A1AD0 /* FTCircleViewController.m in Sources */,
+				5970D4831DEDBFCA000A1AD0 /* UIView+Frame.m in Sources */,
+				5970D4931DEDC2A2000A1AD0 /* FTMeViewController.m in Sources */,
+				5970D4871DEDC0D7000A1AD0 /* FTMainTabViewController.m in Sources */,
+				5970D4901DEDC288000A1AD0 /* FTChatViewController.m in Sources */,
+				5970D48A1DEDC128000A1AD0 /* FTMainNavViewController.m in Sources */,
+				5970D4811DEDBFCA000A1AD0 /* AppDelegate.m in Sources */,
+				5970D4841DEDBFCA000A1AD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +499,6 @@
 			targetProxy = 5970D4541DEDBCB6000A1AD0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5970D43B1DEDBCB6000A1AD0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5970D43C1DEDBCB6000A1AD0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5970D4401DEDBCB6000A1AD0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5970D4411DEDBCB6000A1AD0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5970D45A1DEDBCB6000A1AD0 /* Debug */ = {
@@ -505,6 +676,7 @@
 				5970D45E1DEDBCB6000A1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5970D45F1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +685,7 @@
 				5970D4611DEDBCB6000A1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5970D4621DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +694,7 @@
 				5970D4641DEDBCB6000A1AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

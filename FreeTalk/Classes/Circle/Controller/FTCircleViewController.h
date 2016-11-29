@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FTCircleViewController.h
 //  FreeTalk
 //
 //  Created by 罗显成 on 2016/11/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FTCircleViewController : UIViewController
 
 @end
-
