@@ -7,6 +7,7 @@
 //
 
 #import "FTMainTabViewController.h"
+@import CocoaAsyncSocket;
 
 @interface FTMainTabViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    GCDAsyncSocket * socket = [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
 }
 
 - (void)didReceiveMemoryWarning {
