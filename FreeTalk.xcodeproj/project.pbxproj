@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5704CE9470EB8412FE452683 /* libPods-FreeTalkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CE8993B22285B581F41FB7 /* libPods-FreeTalkUITests.a */; };
 		5970D43F1DEDBCB6000A1AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */; };
 		5970D44D1DEDBCB6000A1AD0 /* FreeTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D44C1DEDBCB6000A1AD0 /* FreeTalkTests.m */; };
 		5970D4581DEDBCB6000A1AD0 /* FreeTalkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4571DEDBCB6000A1AD0 /* FreeTalkUITests.m */; };
@@ -20,6 +21,8 @@
 		5970D4931DEDC2A2000A1AD0 /* FTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970D4921DEDC2A2000A1AD0 /* FTMeViewController.m */; };
 		5970D4951DEDD245000A1AD0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5970D4941DEDD245000A1AD0 /* CocoaAsyncSocket.framework */; };
 		5970D4961DEDD245000A1AD0 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5970D4941DEDD245000A1AD0 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FA53193F67B693883FF14EB /* libPods-FreeTalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E42CCFD31C4BEA0B39999E99 /* libPods-FreeTalk.a */; };
+		D1E47D4D66672DD5F06C0675 /* libPods-FreeTalkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7289569D9887A868AF2D1BCF /* libPods-FreeTalkTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		133095AAEA73AB09C0129685 /* Pods-FreeTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk.release.xcconfig"; sourceTree = "<group>"; };
+		2542A5330FEB641A213843AC /* Pods-FreeTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalkTests/Pods-FreeTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5970D42F1DEDBCB6000A1AD0 /* FreeTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5970D43E1DEDBCB6000A1AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5970D4431DEDBCB6000A1AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +84,13 @@
 		5970D4911DEDC2A2000A1AD0 /* FTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTMeViewController.h; sourceTree = "<group>"; };
 		5970D4921DEDC2A2000A1AD0 /* FTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTMeViewController.m; sourceTree = "<group>"; };
 		5970D4941DEDD245000A1AD0 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		7289569D9887A868AF2D1BCF /* libPods-FreeTalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeTalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFC53C4AE049BB02D6FF871 /* Pods-FreeTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalkUITests/Pods-FreeTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6CE8993B22285B581F41FB7 /* libPods-FreeTalkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeTalkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A7BF1BF5BCB049436A0B7F /* Pods-FreeTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalkUITests/Pods-FreeTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E42CCFD31C4BEA0B39999E99 /* libPods-FreeTalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreeTalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EAFFC60108EAF541D3A9C8 /* Pods-FreeTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalkTests/Pods-FreeTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8C6B87C7DC0573BC6114D28 /* Pods-FreeTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5970D4951DEDD245000A1AD0 /* CocoaAsyncSocket.framework in Frameworks */,
+				6FA53193F67B693883FF14EB /* libPods-FreeTalk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E47D4D66672DD5F06C0675 /* libPods-FreeTalkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5704CE9470EB8412FE452683 /* libPods-FreeTalkUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +130,8 @@
 				5970D44B1DEDBCB6000A1AD0 /* FreeTalkTests */,
 				5970D4561DEDBCB6000A1AD0 /* FreeTalkUITests */,
 				5970D4301DEDBCB6000A1AD0 /* Products */,
+				6E779DE55ABB61FF8E280A65 /* Pods */,
+				BB02BB8ABBF36E8BA3216943 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -346,6 +363,29 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		6E779DE55ABB61FF8E280A65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C6B87C7DC0573BC6114D28 /* Pods-FreeTalk.debug.xcconfig */,
+				133095AAEA73AB09C0129685 /* Pods-FreeTalk.release.xcconfig */,
+				2542A5330FEB641A213843AC /* Pods-FreeTalkTests.debug.xcconfig */,
+				E4EAFFC60108EAF541D3A9C8 /* Pods-FreeTalkTests.release.xcconfig */,
+				7FFC53C4AE049BB02D6FF871 /* Pods-FreeTalkUITests.debug.xcconfig */,
+				E1A7BF1BF5BCB049436A0B7F /* Pods-FreeTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB02BB8ABBF36E8BA3216943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E42CCFD31C4BEA0B39999E99 /* libPods-FreeTalk.a */,
+				7289569D9887A868AF2D1BCF /* libPods-FreeTalkTests.a */,
+				D6CE8993B22285B581F41FB7 /* libPods-FreeTalkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,11 +393,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5970D45C1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalk" */;
 			buildPhases = (
+				48963780BE1FEA74D1A79E68 /* 📦 Check Pods Manifest.lock */,
 				5970D42B1DEDBCB6000A1AD0 /* Sources */,
 				5970D42C1DEDBCB6000A1AD0 /* Frameworks */,
 				5970D42D1DEDBCB6000A1AD0 /* Resources */,
 				5970D4971DEDD245000A1AD0 /* Embed Frameworks */,
 				5970D4981DEDD27E000A1AD0 /* ShellScript */,
+				0F9ACCE338774C2AD3DCA930 /* 📦 Embed Pods Frameworks */,
+				52B3C50F12F40919A0273931 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -372,9 +415,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5970D45F1DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkTests" */;
 			buildPhases = (
+				09E64D88A94E2A95CA5D5465 /* 📦 Check Pods Manifest.lock */,
 				5970D4441DEDBCB6000A1AD0 /* Sources */,
 				5970D4451DEDBCB6000A1AD0 /* Frameworks */,
 				5970D4461DEDBCB6000A1AD0 /* Resources */,
+				B664D0CE4EF129F2305D927E /* 📦 Embed Pods Frameworks */,
+				AACA3BE1C181B04C96C657CB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -390,9 +436,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5970D4621DEDBCB6000A1AD0 /* Build configuration list for PBXNativeTarget "FreeTalkUITests" */;
 			buildPhases = (
+				AE079D1827B8E56FD6D38084 /* 📦 Check Pods Manifest.lock */,
 				5970D44F1DEDBCB6000A1AD0 /* Sources */,
 				5970D4501DEDBCB6000A1AD0 /* Frameworks */,
 				5970D4511DEDBCB6000A1AD0 /* Resources */,
+				D56E52BC619FF5B42196226D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -475,6 +523,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09E64D88A94E2A95CA5D5465 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F9ACCE338774C2AD3DCA930 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48963780BE1FEA74D1A79E68 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52B3C50F12F40919A0273931 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalk/Pods-FreeTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5970D4981DEDD27E000A1AD0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +596,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		AACA3BE1C181B04C96C657CB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalkTests/Pods-FreeTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE079D1827B8E56FD6D38084 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B664D0CE4EF129F2305D927E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalkTests/Pods-FreeTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56E52BC619FF5B42196226D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTalkUITests/Pods-FreeTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -629,6 +797,7 @@
 		};
 		5970D45D1DEDBCB6000A1AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C6B87C7DC0573BC6114D28 /* Pods-FreeTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -636,6 +805,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FreeTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -644,6 +814,7 @@
 		};
 		5970D45E1DEDBCB6000A1AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133095AAEA73AB09C0129685 /* Pods-FreeTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -651,6 +822,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FreeTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackinmyway.www.FreeTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -659,6 +831,7 @@
 		};
 		5970D4601DEDBCB6000A1AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2542A5330FEB641A213843AC /* Pods-FreeTalkTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FreeTalkTests/Info.plist;
@@ -671,6 +844,7 @@
 		};
 		5970D4611DEDBCB6000A1AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EAFFC60108EAF541D3A9C8 /* Pods-FreeTalkTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FreeTalkTests/Info.plist;
@@ -683,6 +857,7 @@
 		};
 		5970D4631DEDBCB6000A1AD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFC53C4AE049BB02D6FF871 /* Pods-FreeTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FreeTalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -694,6 +869,7 @@
 		};
 		5970D4641DEDBCB6000A1AD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A7BF1BF5BCB049436A0B7F /* Pods-FreeTalkUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FreeTalkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

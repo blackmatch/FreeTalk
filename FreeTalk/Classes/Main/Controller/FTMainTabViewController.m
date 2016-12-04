@@ -7,7 +7,10 @@
 //
 
 #import "FTMainTabViewController.h"
-@import CocoaAsyncSocket;
+#import "FTMainNavViewController.h"
+#import "FTChatViewController.h"
+#import "FTCircleViewController.h"
+#import "FTMeViewController.h"
 
 @interface FTMainTabViewController ()
 
@@ -19,7 +22,28 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    GCDAsyncSocket * socket = [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+    [self addAllChildVCs];
+}
+
+//add all child ViewControllers
+- (void)addAllChildVCs {
+    FTChatViewController *chatVC = [[FTChatViewController alloc]init];
+    [self initOneChildVC:chatVC image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""] title:@"消息"];
+    
+    FTCircleViewController *circleVC = [[FTCircleViewController alloc]init];
+    [self initOneChildVC:circleVC image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""] title:@"朋友圈"];
+    
+    FTMeViewController *meVC = [[FTMeViewController alloc]init];
+    [self initOneChildVC:meVC image:[UIImage imageNamed:@""] selectedImage:[UIImage imageNamed:@""] title:@"我"];
+}
+
+- (void)initOneChildVC:(UIViewController *)vc image:(UIImage *)image selectedImage:(UIImage *)selectedImage title:(NSString *)title {
+    vc.title = title;
+    vc.tabBarItem.image = image;
+    vc.tabBarItem.selectedImage = selectedImage;
+    
+    FTMainNavViewController *nav = [[FTMainNavViewController alloc]initWithRootViewController:vc];
+    [self addChildViewController:nav];
 }
 
 - (void)didReceiveMemoryWarning {
