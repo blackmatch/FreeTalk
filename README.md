@@ -3,13 +3,7 @@ Just talk about your idea.This is aim to improve coding skills.So, just be free 
 ##About the project
 I advise to create a socket base app.First, we need to realize realtime communication(just like wechat).
 ###CocoaPods or Carchage
-We all know CocoaPods, but I want to try new things.Carthage looks good! So, I decide to use CocoaPods and Carthage to manage third-party framewords at the same time. I want to use 
-Carthage more. So, if the framework I decide to use is available on Carthage, I will do it.
-If not, I will use CocoaPods.
-####Carthage
-the Cartfile:  
-
-	github "robbiehanson/CocoaAsyncSocket" "master"
+We all know CocoaPods, but I want to try new things.Carthage looks good! So, I decide to use CocoaPods and Carthage to manage third-party framewords at the same time.But, two weeks later, I found Carthage is not that good I thought before when I was using SDWebImage by Carthage.Finally, I decide to only use CocoaPods.
 
 ####CocoaPods
 the Podfile:  
@@ -23,6 +17,9 @@ the Podfile:
 
   	# Pods for FreeTalk
   	pod 'Masonry'
+  	pod 'MJRefresh'
+  	pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+  	pod 'SDWebImage', '~>3.8'
 
   	target 'FreeTalkTests' do
     inherit! :search_paths

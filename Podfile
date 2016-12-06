@@ -7,6 +7,9 @@ target 'FreeTalk' do
 
   # Pods for FreeTalk
   pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+  pod 'SDWebImage', '~>3.8'
 
   target 'FreeTalkTests' do
     inherit! :search_paths
