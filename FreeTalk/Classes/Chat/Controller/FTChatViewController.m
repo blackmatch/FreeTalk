@@ -11,6 +11,8 @@
 #import "FTChatListItemModel.h"
 #import <UITableView+FDTemplateLayoutCell.h>
 
+#define kChatListCellIdentifier @"ChatListCell"
+
 @interface FTChatViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong)UITableView *chatListTableView;
 @property (nonatomic, strong)NSMutableArray *chatListModels;
@@ -36,6 +38,10 @@
 
 - (void)loadUI {
     UITableView *chatListTableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStyleGrouped];
+    [chatListTableView registerClass:[FTChatListCell class] forCellReuseIdentifier:kChatListCellIdentifier];
+    //remove group tableview blank header
+    UIView *noHeaderView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 0, 0.1)];
+    chatListTableView.tableHeaderView = noHeaderView;
     self.chatListTableView = chatListTableView;
     chatListTableView.dataSource = self;
     chatListTableView.delegate = self;
@@ -72,30 +78,30 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString static *chatListCellIdentifier = @"ChatListCell";
-    FTChatListCell *cell = [tableView dequeueReusableCellWithIdentifier:chatListCellIdentifier];
+    FTChatListCell *cell = [tableView dequeueReusableCellWithIdentifier:kChatListCellIdentifier];
     
-    if (!cell) {
-        cell = [[FTChatListCell alloc]init];
-    }
+//    if (!cell) {
+//        cell = [[FTChatListCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kChatListCellIdentifier];
+//    }
     
     return cell;
 }
 
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    return [tableView fd_heightForCellWithIdentifier:@"" configuration:^(id cell) {
-//        FTChatListItemModel *model = [self.chatListModels objectAtIndex:indexPath.row];
-//        FTChatListCell *chatListCell = (FTChatListCell *)cell;
-//        [chatListCell updateViewWithModel:model];
-//    }];
-//}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return [tableView fd_heightForCellWithIdentifier:kChatListCellIdentifier cacheByIndexPath:indexPath configuration:^(id cell) {
+        FTChatListItemModel *model = [self.chatListModels objectAtIndex:indexPath.row];
+        FTChatListCell *chatListCell = (FTChatListCell *)cell;
+        [chatListCell updateViewWithModel:model];
+    }];
+}
 
 #pragma mark UITableViewDelegate
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    FTChatListItemModel *model = [self.chatListModels objectAtIndex:indexPath.row];
-    FTChatListCell *chatListCell = (FTChatListCell *)cell;
-    [chatListCell updateViewWithModel:model];
-}
+//- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+//    FTChatListItemModel *model = [self.chatListModels objectAtIndex:indexPath.row];
+//    FTChatListCell *chatListCell = (FTChatListCell *)cell;
+//    [chatListCell updateViewWithModel:model];
+//}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     

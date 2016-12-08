@@ -1,4 +1,7 @@
 PODS:
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
   - Masonry (1.0.2)
   - MJRefresh (3.1.12)
   - SDWebImage (3.8.2):
@@ -7,17 +10,19 @@ PODS:
   - UITableView+FDTemplateLayoutCell (1.5.beta)
 
 DEPENDENCIES:
+  - CocoaAsyncSocket
   - Masonry
   - MJRefresh
   - SDWebImage (~> 3.8)
   - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
 
-PODFILE CHECKSUM: 43c76d35b678098185313cd393fd08c79ca1a25a
+PODFILE CHECKSUM: 9be9b43fa2850fa3c2a661cea36ae73dc930aa3c
 
 COCOAPODS: 1.2.0.beta.1

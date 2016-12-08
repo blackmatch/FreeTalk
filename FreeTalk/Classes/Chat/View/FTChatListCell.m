@@ -27,9 +27,18 @@
     // Configure the view for the selected state
 }
 
-//override init method
 - (instancetype)init {
     self = [super init];
+    if (self) {
+        NSLog(@"call me");
+    }
+    
+    return self;
+}
+
+//override init method
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         UIView *baseView = self.contentView;
         //portrait image view
@@ -74,7 +83,6 @@
 }
 
 - (void)updateViewWithModel:(FTChatListItemModel *)model {
-    NSLog(@"%@", _portraitImgView);
     NSString *pUrl = model.portraitUrl ? model.portraitUrl : @"";
     [_portraitImgView sd_setImageWithURL:[NSURL URLWithString:pUrl] placeholderImage:[UIImage imageNamed:@""] options:SDWebImageRefreshCached];
     _nickNameLabel.text = model.nickName ? model.nickName : @"";

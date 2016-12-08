@@ -20,6 +20,7 @@ the Podfile:
   	pod 'MJRefresh'
   	pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
   	pod 'SDWebImage', '~>3.8'
+  	pod 'CocoaAsyncSocket'
 
   	target 'FreeTalkTests' do
     inherit! :search_paths
